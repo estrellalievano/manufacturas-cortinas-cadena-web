@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#00204A">
+  <meta name="description" content="Manufacturas y Cortinas Cadena. Soluciones en cortinas y zaguanes.">
+  <title>Manufacturas y Cortinas Cadena</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Manufacturas y Cortinas Cadena, inicio">
+      <img src="assets/logo-cortinas-cadena.jpeg" alt="Cortinas Cadena: soluciones en cortinas y puertas automáticas">
+    </a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a href="#servicios">SERVICIOS</a>
+      <a href="#productos">CATÁLOGO</a>
+      <a href="#nosotros">NOSOTROS</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-shade"></div>
+      <div class="hero-content reveal">
+        <h1>SOLUCIONES QUE<br>TRANSFORMAN ESPACIOS.</h1>
+        <p class="hero-lead">Calidad, innovación y seguridad<br>en cada proyecto.</p>
+        <p class="hero-copy">Especialistas en cortinas metálicas,<br>zaguanes y soluciones de protección para<br>espacios comerciales e industriales.</p>
+        <a class="button button-red hero-button" href="https://wa.me/527731218597" target="_blank" rel="noopener">¡Contáctanos!</a>
+      </div>
+      <a class="hero-down" href="#nosotros" aria-label="Bajar a Sobre nosotros"></a>
+    </section>
+
+    <section class="about section-navy" id="nosotros">
+      <div class="about-inner">
+        <div class="about-copy reveal">
+          <p class="eyebrow">SOBRE NOSOTROS</p>
+          <h2 class="sr-only">Sobre nosotros</h2>
+          <p>En <strong>Manufacturas y Cortinas Cadena</strong> somos una empresa especializada en soluciones para cortinas, zaguanes y productos relacionados con la transformación y funcionalidad de los espacios.</p>
+          <p>Nos distinguimos por nuestro compromiso con la calidad, la atención personalizada y la búsqueda de soluciones que se adapten a las necesidades de cada cliente.</p>
+          <p>Creemos que cada espacio merece una solución a su medida. Por eso, ponemos especial atención en los detalles y en la satisfacción de quienes confían en nosotros.</p>
+        </div>
+        <div class="about-photo reveal">
+          <img src="assets/simbolo-marca.jpeg" alt="Símbolo de Cortinas Cadena">
+        </div>
+      </div>
+      <div class="values">
+        <article class="value-card reveal"><span class="value-icon">✧</span><p>Compromiso en<br>cada proyecto.</p></article>
+        <article class="value-card reveal"><span class="value-icon">◇</span><p>Atención cercana y<br>personalizada.</p></article>
+        <article class="value-card reveal"><span class="value-icon">✳</span><p>Opciones para<br>cada necesidad.</p></article>
+      </div>
+    </section>
+
+    <section class="products" id="productos">
+      <div class="products-heading">
+        <h2>PRODUCTOS</h2>
+      </div>
+      <div class="product-list">
+        <a class="product-row reveal" href="#contacto">
+          <img src="assets/cortina-perforada.jpeg" alt="Cortina de acero perforada">
+          <span>Cortinas de Acero</span>
+        </a>
+        <a class="product-row product-row-reverse reveal" href="#contacto">
+          <img src="assets/z otros-brown-gate.jpeg" alt="Zaguán de paneles horizontales">
+          <span>Zaguanes</span>
+        </a>
+        <a class="product-row reveal" href="#contacto">
+          <img src="assets/cortina-oscura.jpeg" alt="Puerta automática tipo cortina metálica">
+          <span>Puertas<br>automáticas</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="services section-navy" id="servicios">
+      <h2 class="section-title reveal">SERVICIOS</h2>
+      <div class="service-grid">
+        <article class="service-card service-card-red reveal">
+          <h3>01. Fabricación</h3>
+          <p>Fabricamos cortinas de acero y zaguanes con atención a los detalles y a las necesidades específicas de cada proyecto.</p>
+        </article>
+        <article class="service-card reveal">
+          <h3>02. Instalación</h3>
+          <p>Realizamos instalaciones profesionales para garantizar el funcionamiento y ajuste adecuado de cada producto.</p>
+        </article>
+        <article class="service-card reveal">
+          <h3>03. Automatización</h3>
+          <p>Incorporamos sistemas de accionamiento automático para brindar mayor comodidad y practicidad.</p>
+        </article>
+        <article class="service-card reveal">
+          <h3>04. Mantenimiento y reparación.</h3>
+          <p>Atención para conservar el funcionamiento y las condiciones de operación de los sistemas instalados.</p>
+        </article>
+      </div>
+
+      <div class="quote-intro reveal">
+        <h2>¿Tienes un proyecto en mente?</h2>
+        <p>Estamos listos para ayudarte, cuéntanos qué necesitas<br>y nuestro equipo te brindará atención personalizada<br>para encontrar la solución adecuada.</p>
+      </div>
+
+      <form class="quote-form reveal" id="quote-form">
+        <h2>Solicita tu cotización</h2>
+        <label for="full-name">Nombre completo</label>
+        <input id="full-name" name="nombre" autocomplete="name" required>
+        <label for="phone">Teléfono</label>
+        <input id="phone" name="telefono" type="tel" autocomplete="tel" required>
+        <label for="email">Correo electrónico</label>
+        <input id="email" name="correo" type="email" autocomplete="email">
+        <label for="product">Producto de interés</label>
+        <select id="product" name="producto" required>
+          <option value="">Selecciona una opción</option>
+          <option>Cortina de acero</option>
+          <option>Zaguán</option>
+          <option>Sistema automatizado</option>
+        </select>
+        <label for="details">Cuéntanos sobre tu proyecto</label>
+        <textarea id="details" name="proyecto" rows="4"></textarea>
+        <button class="button button-red form-submit" type="submit">¡Cotizar!</button>
+        <p class="form-note">Al enviar, se abrirá WhatsApp con los datos de tu solicitud.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="contact" id="contacto">
+    <div class="contact-mark">
+      <img src="assets/simbolo-marca.jpeg" alt="" aria-hidden="true">
+    </div>
+    <div class="contact-content">
+      <h2>Contacto</h2>
+      <a href="tel:+527637860412"><span class="contact-icon">☎</span> +52 763 786 0412</a>
+      <a href="https://wa.me/527731218597" target="_blank" rel="noopener"><span class="contact-icon">◉</span> +52 773 121 8597</a>
+      <a href="mailto:cortinas_cadena@gmail.com"><span class="contact-icon">✉</span> cortinas_cadena@gmail.com</a>
+      <div class="contact-address"><span class="contact-icon">⌖</span><span>Tlahuelilpan, Hgo. Col. El Salitre<br>12 de Diciembre 42785</span></div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
